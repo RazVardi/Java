@@ -1,0 +1,70 @@
+Homework - Composition
+ 
+Basic level exercises
+
+Exercise 1:
+This exercise should be approached after you have already created one class easily and know: how to create a class, how to set variables, how to set setter / getter to update and accept the variables, how to write methods and how to initialize the class type object you have defined.
+
+In the context of an exercise ... when we define a book we associate the author with the author (a writer can write several books). This composition is when we use a "ready" object of a writer to define the author as part of the definition of the book.
+1. Build a new project and create the following classes with the following variables and methods
+(Note that in order to define the Author of the book we used an Author type variable):
+a. Create an Author class that contains the following variables
+i. String name
+ii. String address
+iii. Constructor
+iv. Setter / Getter
+b. Create a Class Book that contains
+i. String name
+ii. int price
+iii. Author author
+iv. Constructor
+v. Setter / Getter
+vi. whoIsTheAuthor (Method that returns the author's name - the method will use the Author's getter method to return the author's name)
+
+Now, we have a class book that contains within it a writer.
+2. Write a main program in which you will create the author gal, and the following books:
+Author gal = new Author (“Gal Matalon”, “Netanya”);
+Book javaBook = new Book (“The java world for QA”, 97, gal);
+Book seleniumBook = new Book (“The selenium world”, 197, gal);
+
+3. For each book, print the author's name
+javaBook .whoIsTheAuthor ();
+seleniumBook.whoIsTheAuthor ();
+
+
+Intermediate level exercises
+
+Exercise 1:
+Anyone who grew up in the country and is over 30, has heard this children's song many times:
+https://www.youtube.com/watch?v=wF0lXbg5Z04
+For those who are not clear about the words, here is the first stanza:
+We have a goat
+The goat has a beard
+Even four legs
+And also a small tail
+ This is a great example of a composition. Create a goat class
+The goat class has:
+Beard - class beard
+4-legged array (class Leg or Hind)
+Class Tail
+Add relevant variables to each class (like for beard - add color, tail add size)
+Add methods relevant to the goat class (such as age and weight and color).
+
+Start 2 goat class objects, and start each class that belongs to them.
+Print the following on the goat: the color of the beard, all the information on the goat, and the length of the tail
+
+
+ 
+
+
+
+Advanced level exercises (challenging :))
+Exercise 1:
+
+1. Build a project and define a vehicle (Automobile).
+2. Add to the Automobile class a new class called Radio.
+3. The radio has an array of station-type clasps. Each station has a name (IDF waves. For example) and a frequency (96.6). The radio has an On and Off mode.
+4. The user can tell the car to turn off or on the radio and change station. A station can only be changed if the radio is in the On position. Add a method called getRadioState to the car that will return to the user whether the radio is turned on or not. Add a method called getRadioStation that will return to the user what the tuned station name is, only if the radio is turned on. Think about how you can use a value to return from the method
+5. Add a model to the car as well, so that there will be a manufacturer (firm), model and year (Toyota, Corolla, 2011).
+6. Write to the car a method that prints the condition of the wheels (some air pressure). ZA says goes over the array and prints for each wheel (the assumption is that the fifth wheel in the array is the spare wheel)
+7. Write to the car a method called puncher, if the user calls it then one of the wheels drops the air pressure to 0. Then replace it with the spare wheel. How is this expressed in the array of wheels?
