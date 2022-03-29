@@ -1,0 +1,55 @@
+collections + exceptions - Homework
+Basic level exercises
+Exercise 1:
+Set up a String ArrayList collection
+ArrayList <String> listOfCountries = new ArrayList <String> ();
+2. Add to the list several names of countries: israel, usa, japan, mexico, australia
+3. Print the list in a loop
+4. Sort the list (you can use the sort function (search on Google) built into some of the list functions or call the advanced method you wrote that does sorting)
+5. Print the list after sorting.
+
+Exercise 2:
+1. Write a collection of Integer numbers (since lists work with objects and not with primitive variables then Integer should be used which is basically a class that contains a number and other methods)
+ArrayList <Integer> list = new ArrayList <> ();
+2. Add 5 numbers to it
+3. Find the maximum number in the list and print it (it is advisable to call the method that returns the value)
+4. Find the minimum number in the list and print it (it is advisable to call the method that returns the value)
+
+Intermediate level exercises
+Exercise 1: (Optional. Permission)
+Create a country and capital hashmap.
+2. HashMap <String, String> hmap = new HashMap <String, String> ();
+3. Add 4 countries and their capital cities including Israel, Jerusalem
+4. Ask for the capital of Israel and print it out.
+
+Exercise 2:
+Create a method that accepts Array with 6 numbers and returns ArrayList sorted,
+Print the ArrayList after you receive it.
+
+
+
+Advanced level exercises
+Exercise 1:
+General web search exercise and dealing with code (including exceptions)
+Write a program that downloads the HTML code of a website and saves it to a file. This is possible with these functions.
+URL url = new URL ("https://www.ynet.co.il");
+URLConnection conn = url.openConnection ();
+BufferedReader br = new BufferedReader (new InputStreamReader (conn.getInputStream ()));
+Investigate these functions and if necessary help on the page http://www.mkyong.com/java/how-to-get-url-content-in-java/
+Then write the contents of the page to a file. You can not do without the Exceptions. Look at how this is done in the example.
+
+Exercise 2:
+The purpose of this exercise is to start helping you learn how to search on Google, and use "ready-made" code with minor modifications (including using try-catch).
+
+A large part of the classes or methods we need, someone else has already written,
+And here you are going to create objects and then run from content methods we did not learn in class by a short Google search.
+Write a number of lines in a text file (.txt), including your name. And save the file.
+Search Google How to read a read file in Java "read text file in java example"
+It is advisable to search alone but if you have not found a good example then here I have found for you :)
+Use this link https://www.mkyong.com/java/how-to-read-file-from-java-bufferedreader-example/
+3. Now write a program that prints only the lines that contain your name (to check if String contains another String use the Contains function as in the following link http://www.tutorialspoint.com/java/lang/string_contains.htm)
+
+
+*** Help links
+http://beginnersbook.com/2013/12/how-to-sort-arraylist-in-java/
+http://www.java67.com/2013/02/10-examples-of-hashmap-in-java-programming-tutorial.html
