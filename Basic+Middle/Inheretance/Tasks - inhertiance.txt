@@ -1,0 +1,72 @@
+Homework - Inherited
+
+Basic level exercises
+Exercise 1: Inheritance (Class Heir of Class)
+1. Build your own project that defines the following hierarchy.
+2. Build a class named Person that contains the following variables:
+a. String name
+b. String email
+c. long birthYear
+d. All standard methods (constructor / setter / getter)
+e. A method that prints the person's data as printInfo
+f. We will define a toString method
+3. Build a class called Student that inherits (extends) from Person and in addition contains the following variables:
+a. String courseName
+b. boolean active
+c. All standard methods (constructor / setter / getter)
+d. A method that prints the student's data (including being human) called printInfo
+4. Start 3 different students with all their parameters in the array.
+5. Print out all the information about each student
+
+
+Exercise 2: Inheritance (Class Heir of Class)
+1. Build a project that defines the following hierarchy:
+2. Build a class called Vehicle that contains the following variables:
+a. int year
+b. double price
+c. String color
+d. All standard methods (constructor / setter / getter)
+e. A method that prints Vehicle data called printInfo
+f. In addition, we will define a toString method
+  3. Build a class called Car that inherits (extends) from Vehicle and in addition contains the following variable:
+int numberOfDoors .a
+b. All standard methods (constructor / setter / getter)
+c. A method that prints Car data (including being a Vehicle) called printInfo
+d. In addition, we will define a toString method
+4. Build a class called Truck that inherits (extends) from Vehicle and in addition contains the following variable:
+int numberOfAxlesa .a
+    b. All standard methods (constructor / setter / getter)
+             c. A method that prints Car data (including being a Vehicle) called printInfo
+            d. In addition, we will define a toString method
+5. Build a class called Motorcycle that extends from Vehicle and also contains the following variable:
+  boolean hasSideCar.a
+b. All standard methods (constructor / setter / getter)
+c. A method that prints the Motorcycle data (including being a Vehicle) called printInfo
+d. In addition, we will define a toString method
+6. From the main function you will create objects for Car, Truck, Motorcycle
+7. Print the information for each of them using printInfo and toString methods.
+
+
+
+
+
+Intermediate level exercises
+Exercise 3: Inheritance (Class Heir from Class) - Several levels of inheritance - Build a project that defines the following hierarchy, according to the definition of classes that will maintain this system:
+
+
+
+
+
+
+
+
+Adhere to the following logic:
+1. Animal Class implements howDoYouLive method The method prints:
+ I breath oxygen
+And the following variables: color, name
+2. From the main function, create an Anaconda object and make sure that it responds to the call in this method howDoYouLive.
+3. In Animal Class you will write a function called howManyLegs that prints:
+ this question is too general
+In Gorilla and Anaconda classes you will implement the howManyLegs function and print a correct answer for each animal according to what it has.
+5. Make sure that both Gorrila's and anaconda's Instance each return the correct (and different) answer to this question.
+Define another animal - an heir from either Monkey or Snake who will answer this question.
