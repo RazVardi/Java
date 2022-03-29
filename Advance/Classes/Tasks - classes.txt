@@ -1,0 +1,98 @@
+Homework - classes
+
+Basic level exercises
+
+Exercise 1:
+Create a class of cat that contains the following variables:
+a. age type int
+b. name String type
+c. color String type
+2. Create the following methods for the Cat's Class:
+a. Constructor - through which we initialize the variables.
+b. Getter & Setter.
+c. Set toString method
+Create a Main Plan through which we will create 2 cats.
+Cat cat1 = new Cat ("snoopi", "black", 3);
+Cat cat2 = new Cat ("mitzi", "white", 4);
+4. Print the color, and name each cat
+
+
+Exercise 2:
+1. Just like Exercise 1, just instead of creating 2 cats,
+Create an array of 5 cats.
+Cat [] myCats = new Cat [5];
+myCats [0] = new Cat ("snoopi", "black", 3);
+….
+Initialize the data of each cat. (By calling a constructor).
+3. Print the information of each cat by a loop on the array (you can of course also call the method that does the printing)
+
+
+Exercise 3:
+Create 2 classes with the following names:
+a. Rectangle
+b. Circle
+For each class, create the following variables:
+a. double type area
+b. color String type
+For each class, create the following basic methods:
+a. Constructor
+b. Getter & Setter
+4. Create 2 objects, one of the Circle type and the other of the Rectangle type and initialize them.
+5. Print the color and area for each object.
+
+
+Intermediate level exercises
+
+Exercise 1:
+In the previous exercise of shapes we inserted the space in the initialization of the objects. But in the real world we create a circle, triangle, square or any other engineering shape we do not really know what the area is, these know easier data to measure such as side length (square) or radius (circle).
+Create 2 classes with the following names and variables for each shape:
+(Think for yourself and determine the type of each variable)
+a. Rectangle
+i. color
+ii. height
+iii. width
+b. Circle
+i. color
+ii. radius
+For each class, create the following basic methods:
+a. Constructor
+b. Getter & Setter
+For each class, create a method that calculates the area and returns it.
+(You can search on Google how to calculate the area of ​​a shape)
+4. Create 2 objects, one of the Circle type and the other of the Rectangle type and initialize them.
+5. Print the color and area for each object.
+
+
+Exercise 2:
+pay attention! The goal of this exercise is to learn how to use existing objects.
+We learned about a String variable
+Note that String is a class (it also starts with the same size as all other variables like int, double, boolean…) so when we create a String variable we actually created an object.
+Like any object it has methods, and the purpose of the exercise is to become familiar with important Class String methods.
+
+Write a program that gets a browser name from the user (like chrome, edge…).
+You can get the name in small, large, or mixed letters.
+(You can enter "CHROME" or "chrome" for example)
+The program will print the name of the browser + color according to the data below:
+firefox - blue
+chrome - red
+edge - yellow
+others - green
+
+** Note that getting a String from the user is different from getting an int (Google search on how to do this)
+For the solution, use a switch / if or a combination of both.
+
+Advanced level exercises
+
+If we want to build student management software (or college) then as part of writing our code we will need to define a student class.
+- Define a student's class and define the following characteristics in the class:
+1. Name
+2. Email
+3. Add 3 more features of your choice
+4. An array of his score list
+Create methods according to the next step (see what you need and accordingly create appropriate methods)
+Then:
+Create 5 different students
+2. Print all the details about each student using toString
+3. Print for each student the average of his or her grades
+4. Print the grade point average of all students together
+Successfully:)
